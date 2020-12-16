@@ -11,6 +11,7 @@ body {
     background: #eee;
 }
 
+/* Navbar */
 .main {
     max-width: 1200px;
     margin: auto;
@@ -56,7 +57,7 @@ p {
     margin: 0;
     padding: .1em 0;
 }
-  
+
 .btn {
     display: inline-block;
     background: #333;
@@ -72,6 +73,7 @@ p {
     color: #333;
 }
 
+/* Heading */
 #showcase {
     position: relative;
     background: #333
@@ -102,4 +104,71 @@ p {
 #showcase .content-wrap,
 #about .content-wrap {
     padding: 3rem 1.5em;
+}
+
+/* Project Section */
+#projects {
+    padding: 2em 1em 1em;
+    background-color: rgb(51, 51, 51);
+}
+
+img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+#projects ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+#projects li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+#footer {
+    padding: 2em;
+    background: rgb(139, 139, 139);
+    color: #fff;
+    text-align: center;
+}
+  
+#footer a {
+    color: #2690d4;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (min-width: 700px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .content-wrap,
+    #projects ul {
+        grid-column: 2/4;
+    }
+    
+    .box,
+    #footer div {
+        grid-column: span 2;
+    }
+
+    #projects ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #projects li {
+        width: 31%;
+    }
 }
