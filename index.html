@@ -1,4 +1,3 @@
-
 <head>
     <link rel="stylesheet" href="style.css">
     <link
@@ -37,21 +36,22 @@
     </section>
     <!-- about Section -->
     <section id="about" class="grid">
-        <div class="content-wrap">
+        <div class="box">
             <h2 class="content-title">About Me</h2>
-            <div class="content-text">
-                <p id="projects-link">I am originally from Belize and currently living in Pontotoc, MS.
-                    I have been an aspiring Web Developer since freshman year of High School.
-                    I’m interested in Web Development because one of my hobbies is drawing/painting
-                    and I enjoy doing it. Web Developers have to be passionate about colors and how
-                    the text is laid out across the website. When it comes to that I can be organized.
-                    I am enrolled in Base Camp Coding Academy, where I’ve learned Python, SQL, and HTML/CSS
-                    and am building my knowledge on Javascript, Django, Java, and Sprint.
-                </p>
-            </div>
+            <p>I am originally from Belize and currently living in Pontotoc, MS.
+                I have been an aspiring Web Developer since freshman year of High School.
+                I’m interested in Web Development because one of my hobbies is drawing/painting
+                and I enjoy doing it. Web Developers have to be passionate about colors and how
+                the text is laid out across the website. When it comes to that, I can be organized.
+            </p>
+        </div>
+        <div class="box">
+            <h2 class="content-title">Skills</h2>
+            <p id="projects-link">Python, SQL, and HTML/CSS</p>
         </div>
     </section>
     <!-- projects Section-->
+    <h5>Projects</h5>
     <section id="projects" class="grid">
         <ul>
             <li>
@@ -60,7 +60,8 @@
                         <img src="images/unit-one-image.png" alt="Unit One Image">
                     </a>
                     <div class="card-content">
-                        <h3 class="card-title">Unit 1 Project</h3>
+                        <h3 class="card-title">Game of Chance</h3>
+                        <h4>Unit 1 Project</h4>
                         <p>The Game of Chance is a program with 5 mini games of chance inside.
                             These games include rock paper scissors, guess the number, coin flip,
                             horse race, and pick the card.
@@ -70,11 +71,12 @@
             </li>
             <li>
                 <div class="card">
-                <a href="https://github.com/BaseCampCoding/unit-project-2-ethan-sean" target="_blank"> 
+                <a href="https://github.com/BaseCampCoding/unit-project-2-ethan-sean" height="100px" target="_blank"> 
                     <img src="images/unit-two-image.png" alt="Unit One Image">
                 </a>
                     <div class="card-content">
-                        <h3 class="card-title">Unit 2 Project</h3>
+                        <h3 class="card-title">Banking System</h3>
+                        <h4>Unit 2 Project</h4>
                         <p>This program is a mock banking system. Where you can deposit, withdraw
                             and add money into your savings account. Little features like view balance,
                             delete account and change password makes with program great.
@@ -89,6 +91,7 @@
                     </a>
                     <div class="card-content">
                         <h3 class="card-title">Product Page</h3>
+                        <h4>Side Project</h4>
                         <p>This Website has Apple Watch products that has a link so you can buy
                             straight from the apple website.
                         </p>
@@ -99,19 +102,18 @@
     </section>
 </body>
 <!-- Footer -->
-<footer id="footer" class="grid">
+<footer id="contact">
     <div class="contact-links">
-        <a
-          id="github-link"
-          href="https://github.com/seanc21"
-          target="_blank"
-          ><i class="fab fa-github"></i> GitHub</a
-        >
-        <a href="mailto:scoh21@basecampcodingacademy.org">
-            <i class="fas fa-envelope"></i> Send a mail</a
-        >
-        <a href="tel:662-491-9144">
-            <i class="fas fa-mobile-alt"></i> Call me</a
-        >
+        <ul>
+            <li><a
+                id="github-link"
+                href="https://github.com/seanc21"
+                target="_blank">
+                <i class="fab fa-2x fa-github"></i></a>
+            </li>
+            <li><a href="mailto:scoh21@basecampcodingacademy.org">
+                <i class="fas fa-2x fa-envelope"></i></a>
+            </li>
+        </ul>
     </div>
 </footer>
