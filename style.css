@@ -17,6 +17,10 @@ h4 {
     padding: 1em 0;
 }
 
+h6 {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
 body {
     margin: 0;
     background: #333;
@@ -161,8 +165,6 @@ p {
 
 #projects ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 #projects li {
@@ -206,13 +208,12 @@ h5 {
     float: right;
     display: flex;
     margin: 0;
-    padding-right: 530px;
     padding-bottom: 20px;
 }
 
 #contact a {
     color: #2690d4;
-    padding-right: 30px;
+    padding-right: 14px;
     text-decoration: none;
 }
 
