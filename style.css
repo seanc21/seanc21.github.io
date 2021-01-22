@@ -21,6 +21,7 @@ h6 {
     font-size: 1.8em;
     padding-bottom: 1em;
 }
+
 body {
     margin: 0;
     background: #333;
@@ -211,10 +212,16 @@ h5 {
     padding-bottom: 20px;
 }
 
-#contact a {
+a {
     color: #2690d4;
     padding-right: 14px;
     text-decoration: none;
+    transition: transform 0.3s ease-out;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transform: translateY(1rem);
 }
 
 /* Media Queries */
