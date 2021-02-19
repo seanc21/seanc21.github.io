@@ -12,3 +12,8 @@ function SideProject() {
     window.open( 
     "https://codepen.io/seanc21/full/PoGPYmO", "_blank"); 
 }
+
+function SideProject2() { 
+    window.open( 
+    "https://codepen.io/seanc21/full/jOVLyWr", "_blank"); 
+}
