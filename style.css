@@ -92,13 +92,22 @@ nav ul li a:hover {
 @media (max-width: 600px) {
 
     #navbar-image {
-        position: relative;
         width: 110px;
-        float: left;
     }
     nav ul li a {
         padding: 10px 16px;
         font-size: 13px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    #navbar-image {
+        width: 100px;
+    }
+    nav ul li a {
+        padding: 8px 14px;
+        font-size: 12px;
     }
 }
 
