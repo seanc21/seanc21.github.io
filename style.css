@@ -89,6 +89,39 @@ nav ul li a:hover {
     border-radius: 6px;
 }
 
+/* Burger menu */
+/* label {
+    margin-right: 40px;
+    font-size: 26px;
+    display: none;
+    float: right;
+}
+
+#toggle {
+    display: none;
+} */
+
+/* @media only screen and (max-width: 800px) {
+    label {
+        display: block;
+        cursor: pointer;
+        line-height: 70px;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    nav ul a {
+        display: inline-block;
+        margin: 0;
+    }
+
+    #toggle:checked + nav ul {
+        display: inline-block;
+    }
+} */
+
 @media (max-width: 600px) {
 
     #navbar-image {
