@@ -8,12 +8,16 @@ function UnitTwo() {
     "https://github.com/BaseCampCoding/unit-project-2-ethan-sean", "_blank"); 
 }
 
-function SideProject() { 
+function netflix_landing_page() {
+    window.open(
+    "https://github.com/seanc21/Movie-Landing-Page", "_blank");
+}
+function product_page() { 
     window.open( 
     "https://codepen.io/seanc21/full/PoGPYmO", "_blank"); 
 }
 
-function SideProject2() { 
+function neon_buttons() { 
     window.open( 
     "https://codepen.io/seanc21/full/jOVLyWr", "_blank"); 
 }
