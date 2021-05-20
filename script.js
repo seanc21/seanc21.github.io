@@ -22,6 +22,11 @@ function neon_buttons() {
     "https://codepen.io/seanc21/full/jOVLyWr", "_blank"); 
 }
 
+function cand_bamp() {
+    window.open( 
+    "https://github.com/BaseCampCoding/django-unit-project-sean-bryce-lathe", "_blank"); 
+}
+
 function Typing_test() {
     window.open( 
     "https://github.com/BaseCampCoding/js-unit-project-charles-sean", "_blank"); 

@@ -227,7 +227,7 @@ div {
 #showcase h1 {
     padding-top: 80px;
     margin-bottom: -20px;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 10;
     font-family: 'Cookie', cursive;
 }
@@ -247,6 +247,7 @@ div {
 #about .content-wrap {
     padding: 0 1.5em;
 }
+
 /* Skill section */
 .flex-container {
     display: flex;
@@ -339,8 +340,8 @@ div {
 
 #projects .card-title {
     padding: 0;
-    font-family: 'Lora', serif;
-    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    font-size: 35px;
 }
 
 .des{
