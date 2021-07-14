@@ -26,7 +26,7 @@
                         alt="portfolio logo"
                     >
                     <!-- <label for="toggle">&#9776;</label>
-                    <input type="checkbox" id="toggle"/> -->
+                    <input etype="checkbox" id="toggle"/> -->
                     <ul>
                         <li><a href="#about-link">About</a></li>
                         <li><a href="#projects-link">Projects</a></li>
@@ -41,7 +41,6 @@
                 <div class="content-wrap">
                     <h1>Sean Coh</h1>
                     <p>Aspiring Software Developer</p>
-                    <!-- <a href="#about-link" class="btn">About Me</a> -->
                     <a href="#about-link" class=""><i class="fas fa-3x fa-angle-down"></i></a>
                 </div>
             </div>
@@ -83,7 +82,7 @@
             </div>
             <div class="box">
                 <h2 class="content-title">Skills</h2>
-                <p>Python, SQL, HTML/CSS, Django and Javascript, Java</p>
+                <p>Python, SQL, HTML/CSS, Django and Javascript,<br> Java, Spring</p>
             </div>
         </section>
         <!-- projects Section-->
@@ -93,7 +92,7 @@
                 <!--cards -->
                 <div class="card">
                     <div class="image">
-                        <img src="images/Cand-Bamp-cpy.png" alt="Cand Bamp Image">
+                        <img src="images/Cand-Bamp-cpy.png" alt="Cand Bamp Image" style="height: 270px !important;">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Cand Bamp</h3>
@@ -101,9 +100,9 @@
                         <div class="des">
                             <p>This project was inspired by <a id="band-camp-link" href="https://bandcamp.com/" target="_blank">Band Camp</a>.
                                 My partner's and I worked on this for 2 week. The project is to inspire artist to post articles about their
-                                new song and to add their song. The website makes the user login, signup, add music/article, comment and add
+                                new song and to add their song. The website makes the user login, signup, add music/article, comments and add
                                 picture's to their profile and music album. Most of the website features has authentication to keep other users
-                                from editing things that's not theirs.
+                                from editing things that's not theirs. The user can follow other user and like their article/music post.
                             </p>
                             <button onclick="cand_bamp()" class="button-text">Source Code</button>
                         </div>
@@ -112,7 +111,26 @@
                 <!--cards -->
                 <div class="card">
                     <div class="image">
-                        <img src="images/walle_cpy2.png" alt="Netflix Landing Page">
+                        <img src="images/Airplane-project.png" alt="Airplane-Project" style="height: 270px !important;">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Beyond's Airline</h3>
+                        <h4>June 7, 2021 - Java, Spring, Mariadb</h4>
+                        <div class="des">
+                            <p>A project that I wanted to build for a long time. The motivation to this project was me booking a flight and I 
+                                wanted to see what happens behind the screen. It took me 4 weeks to work on this while learning Spring. Since
+                                all the user information is stored in a database it made it easier to signup and login. The landing page is just
+                                to greet you but the homepage is where you can book and check your flights. After booking the user will be prompt
+                                to a revise page to edit or submit the flight.
+                            </p>
+                            <button onclick="airline_project()" class="button-text">Source Code</button>
+                        </div>
+                    </div>
+                </div>
+                <!--cards -->
+                <div class="card">
+                    <div class="image">
+                        <img src="images/walle_cpy2.png" alt="Netflix Landing Page" style="height: 265px !important;">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Netflix Landing Page</h3>
@@ -131,7 +149,7 @@
                 <!--cards -->
                 <div class="card">
                     <div class="image">
-                        <img src="images/unit-two-image.png" alt="Unit Two Image">
+                        <img src="images/unit-two-image.png" alt="Unit Two Image" style="height: 265px !important;">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Banking System</h3>
@@ -139,18 +157,38 @@
                         <div class="des">
                             <p>This program is a mock banking system. Where you can deposit, withdraw
                                 and add money into your savings account, which are all done by classes.
-                                Little features like view balance, delete account and change password 
+                                Little features like view balance, delete account and change password
                                 makes with program great. How is it done you may ask! Well the features
                                 are done inside a function and a while loop gives the user option to choose from.
+                                All data is stored into a database so user information is secured.
                             </p>
                             <button onclick="UnitTwo()" class="button-text">Source Code</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- cards -->
+                <div class="card">
+                    <div class="image">
+                        <img src="images/Typing_test.png" alt="Typing Test" style="height: 365px !important;">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Typing Test</h3>
+                        <h4>Unit Project</h4>
+                        <div class="des">
+                            <p>This typing test was paired program which the motive was to test your typing
+                                skills. This was done in Javascript to test our skills to see if we knew the
+                                content. The game has animations which brings the game to life. All the words
+                                are randomized through an arraylist. The timer was a set interval to countdown
+                                and update the html timer tag. The buttons are toggle by using the Dom.
+                            </p>
+                            <button onclick="Typing_test()" class="button-text">Source Code</button>
                         </div>
                     </div>
                 </div>
                 <!--cards -->
                 <div class="card">
                     <div class="image">
-                        <img src="images/unit-one-image-cpy.png" alt="Unit One Image">
+                        <img src="images/unit-one-image-cpy.png" alt="Unit One Image" style="height: 365px !important;">
                     </div>
                     <div class="card-content">
                         <h3 class="card-title">Game of Chance</h3>
@@ -166,23 +204,6 @@
                         </div>
                     </div>
                 </div>
-                <!--cards -->
-                <!-- <div class="card">
-                    <div class="image">
-                        <img src="images/Typing_test.png" alt="Typing Test">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="card-title">Typing Test</h3>
-                        <h4>Unit Project</h4>
-                        <div class="des">
-                            <p>This typing test was paired program which the motive was to test your typing
-                                skills. This was done in Javascript to test our skills to see if we knew the
-                                content. The game has animations which brings the game to life.
-                            </p>
-                            <button onclick="Typing_test()" class="button-text">Source Code</button>
-                        </div>
-                    </div>
-                </div> -->
                 <!--cards -->
                 <div class="card">
                     <div class="image">

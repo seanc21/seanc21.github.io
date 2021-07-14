@@ -24,10 +24,15 @@ function neon_buttons() {
 
 function cand_bamp() {
     window.open( 
-    "https://github.com/BaseCampCoding/django-unit-project-sean-bryce-lathe", "_blank"); 
+    "https://github.com/BaseCampCoding/Cand-Bamp-project-sean-bryce-lathe", "_blank"); 
 }
 
 function Typing_test() {
     window.open( 
     "https://github.com/BaseCampCoding/js-unit-project-charles-sean", "_blank"); 
+}
+
+function airline_project() {
+    window.open( 
+        "https://github.com/seanc21/Airline-Booking-System-WebApp", "_blank"); 
 }
