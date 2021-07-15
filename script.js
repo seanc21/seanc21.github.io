@@ -24,7 +24,7 @@ function neon_buttons() {
 
 function cand_bamp() {
     window.open( 
-    "https://github.com/BaseCampCoding/Cand-Bamp-project-sean-bryce-lathe", "_blank"); 
+    "https://github.com/BaseCampCoding/Cand-Bamp-django-project-sean-bryce-lathe", "_blank"); 
 }
 
 function Typing_test() {
