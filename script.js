@@ -12,27 +12,32 @@ function netflix_landing_page() {
     window.open(
     "https://github.com/seanc21/Movie-Landing-Page", "_blank");
 }
-function product_page() {
+function productPage() {
     window.open( 
     "https://codepen.io/seanc21/full/PoGPYmO", "_blank"); 
 }
 
-function neon_buttons() {
+function neonButtons() {
     window.open( 
     "https://codepen.io/seanc21/full/jOVLyWr", "_blank"); 
 }
 
-function cand_bamp() {
+function candBamp() {
     window.open( 
     "https://github.com/BaseCampCoding/Cand-Bamp-django-project-sean-bryce-lathe", "_blank"); 
 }
 
-function Typing_test() {
+function typingTest() {
     window.open( 
     "https://github.com/BaseCampCoding/js-unit-project-charles-sean", "_blank"); 
 }
 
-function airline_project() {
+function airlineProject() {
     window.open( 
         "https://github.com/seanc21/Airline-Booking-System-WebApp", "_blank"); 
+}
+
+function shelfWear() {
+    window.open(
+        "https://github.com/BaseCampCoding/Capstone-Andy-Charles-Sean", "_blank"); 
 }

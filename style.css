@@ -160,6 +160,14 @@ nav ul li a:hover {
         padding: 6px 10px;
         font-size: 12px;
     }
+
+    .image-size {
+        height: 200px !important;
+    }
+}
+
+.image-size {
+    height: 270px;
 }
 
 p {
