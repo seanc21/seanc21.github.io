@@ -145,7 +145,7 @@ nav ul li a:hover {
     }
 
     .content-wrap a i {
-        margin-top: 3rem;
+        margin-top: 8rem !important;
     }
 }
 
@@ -247,7 +247,7 @@ div {
 
 .content-wrap a i {
     margin-top: 10rem;
-    color:rgb(255, 251, 251);
+    color:rgb(255, 255, 255);
     transition: transform 0.4s ease-out;
 }
 
@@ -471,10 +471,6 @@ i:hover {
       grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     }
 
-    #about .content-text {
-      columns: 2;
-      column-gap: 2em;
-    }
 
     #about .content-text p {
       padding-top: 0;
@@ -487,5 +483,5 @@ i:hover {
     .box,
     #contact div {
       grid-column: span 2;
-    }
+    } 
 }
